@@ -30,11 +30,11 @@ body {
 
 a{
   text-decoration: none;
-  color:rgb(0, 41, 255);
+  color:rgb(126, 126, 126);
 }
 
 a:hover{
-  color:rgb(0, 41, 255);
+  color:rgb(255, 255, 255);
 }
 
 .body-box {
@@ -234,7 +234,7 @@ marquee{
 }
 
 .text-18:hover{
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 @-webkit-keyframes glow {
