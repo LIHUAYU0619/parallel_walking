@@ -1,0 +1,258 @@
+/* 1 */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  cursor: url("img/cursor.png"), default;
+  height: 290%;
+  background: linear-gradient(white, 12%, rgba(99, 99, 99, 1));
+  /* background: rgb(255,255,255); */
+  /* background: linear-gradient(-180deg, rgba(255,255,255,1),6%, rgba(94,94,94,1) 100%); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* font-family:monospace; */
+  /* font-family: 'Pinyon Script', cursive; */
+  font-family: chanson-damour, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2.3em;
+  margin: 0;
+  /* cursor:url('img/cursor.png'); */
+}
+
+a{
+  text-decoration: none;
+  color:rgb(0, 41, 255);
+}
+
+a:hover{
+  color:rgb(0, 41, 255);
+}
+
+.body-box {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  /* display: block; */
+  height: 100%;
+}
+
+/* ------below is text------ */
+.text {
+  color: rgb(126, 126, 126);
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+  opacity: 0.3;
+  transition: 1s;
+  position: absolute;
+  /* text-shadow: -0.004rem -0.01rem 0.01rem black, 0.004rem 0.1rem 0.1rem white; */
+}
+
+.text:hover {
+  color: rgb(164, 164, 164);
+  opacity: 0.8;
+}
+
+.text-title {
+  position: absolute;
+  /* margin:15px; */
+  top: 5%;
+  right: 5%;
+}
+
+.text-1 {
+  position: absolute;
+  width: 540px;
+  top: 70%;
+  left: 60%;
+}
+
+.text-2 {
+  position: absolute;
+  width: 500px;
+  top: 120%;
+  left: 8%;
+}
+
+.text-3 {
+  position: absolute;
+  width: 570px;
+  top: 150%;
+  left: 60%;
+}
+
+.text-4 {
+  position: absolute;
+  width: 570px;
+  top: 170%;
+  left: 60%;
+}
+
+.text-5 {
+  width: 730px;
+  top: 230%;
+  left: 8%;
+}
+
+.text-6 {
+  width: 600px;
+  top: 300%;
+  left: 60%;
+}
+
+.text-7 {
+  width: 630px;
+  top: 320%;
+  left: 60%;
+}
+
+.text-8 {
+  width: 680px;
+  top: 380%;
+  left: 8%;
+}
+
+.text-9 {
+  width: 680px;
+  top: 420%;
+  left: 8%;
+}
+
+.text-10 {
+  width: 680px;
+  top: 450%;
+  left: 8%;
+}
+
+.text-11 {
+  width: 680px;
+  top: 500%;
+  left: 60%;
+}
+
+.text-12 {
+  width: 600px;
+  top: 510%;
+  left: 60%;
+}
+
+marquee{
+  /* background-color: rgb(65, 59, 207); */
+  height:50px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+  /* color:rgb(27, 204, 119); */
+  /* width:500%; */
+
+  /* top: 550%; */
+}
+
+.mama{
+  position: absolute;
+  /* width:100%; */
+  top:270%;
+
+  /* background-color: rgb(252, 119, 199); */
+
+}
+
+.mama-1{
+  position: absolute;
+  /* width:100%; */
+  top:560%;
+  /* background-color: rgb(252, 119, 199); */
+}
+
+.mama-2{
+  position: absolute;
+  /* width:100%; */
+  top:750%;
+  /* background-color: rgb(252, 119, 199); */
+}
+
+.dot-1{
+  position: absolute;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+  -webkit-animation: rotation 2s infinite linear;
+  /* width:100%; */
+  top: 550%;
+  /* background-color: rgb(252, 119, 199); */
+
+}
+
+.text-13 {
+  width: 630px;
+  top: 590%;
+  left: 8%;
+}
+
+.text-14 {
+  width: 580px;
+  top: 660%;
+  left: 60%;
+}
+
+.text-15 {
+  width: 580px;
+  top: 675%;
+  left: 60%;
+}
+
+.text-16 {
+  width: 620px;
+  top: 660%;
+  left: 6%;
+}
+
+.text-17 {
+  width: 850px;
+  top: 780%;
+  left: 25%;
+}
+
+.text-18 {
+  position: absolute;
+  font-size: 1.5em;
+  width: 850px;
+  top: 840%;
+  left: 48%;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+  color: rgb(113, 113, 113);
+}
+
+.text-18:hover{
+  color: black;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #eeeeee, 0 0 20px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff,
+    ;
+  }
+
+  to {
+    text-shadow: 0 0 20px #eeeeee, 0 0 30px #dfdfdf, 0 0 10px #fff3b4, 0 0 20px #fff4be;
+  }
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
