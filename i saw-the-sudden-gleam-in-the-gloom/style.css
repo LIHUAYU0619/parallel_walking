@@ -7,7 +7,7 @@ html, body {
   cursor: url("img/cursor.png"), default;
   /* background-color:rgba(135, 135, 135, 1) ; */
   height: 290%;
-  background: linear-gradient(to top, white, 10%, rgba(99, 99, 99, 1));
+  background: linear-gradient(to top, white, 10%, rgba(99, 99, 99, 1), rgb(31, 31, 31));
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

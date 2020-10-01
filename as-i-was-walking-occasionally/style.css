@@ -4,14 +4,16 @@
 }
 
 html, body {
-  cursor: url("img/cursor.png"), default;
+  /* cursor: url("img/cursor.png"), default; */
+  cursor: default;
   height: 290%;
-  background: linear-gradient(white, 12%, rgba(99, 99, 99, 1));
+  /* background: linear-gradient(white, 12%, rgba(99, 99, 99, 1), rgb(31, 31, 31)); */
   /* background: rgb(255,255,255); */
   /* background: linear-gradient(-180deg, rgba(255,255,255,1),6%, rgba(94,94,94,1) 100%); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: rgb(146, 150, 152);
 }
 
 body {
@@ -19,22 +21,46 @@ body {
   /* background-repeat: no-repeat; */
   /* font-family:monospace; */
   /* font-family: 'Pinyon Script', cursive; */
-  font-family: chanson-damour, sans-serif;
+  /* font-花体 */
+  /* font-family: chanson-damour, sans-serif;
   font-weight: 500;
   font-style: normal;
+
+  font-size: 2.3em; */
+  /*  font-2*/
+  /* font-family: 'Goudy Bookletter 1911', serif; */
+
+  /* font-3 */
+  /* font-family: adobe-caslon-pro, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.5em;
+  font-style: italic; */
+  /* font-4 */
+  /* font-family: adonis-web, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.5em; */
+  /*  */
   -webkit-font-smoothing: antialiased;
-  font-size: 2.3em;
   margin: 0;
   /* cursor:url('img/cursor.png'); */
 }
 
-a{
+a {
   text-decoration: none;
-  color:rgb(126, 126, 126);
+  color: rgb(126, 126, 126);
 }
 
-a:hover{
-  color:rgb(255, 255, 255);
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+#quote {
+  font-family: chanson-damour, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.1em;
 }
 
 .body-box {
@@ -48,18 +74,21 @@ a:hover{
 /* ------below is text------ */
 .text {
   color: rgb(126, 126, 126);
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 4s ease-in-out infinite alternate;
+  /* -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate; */
+  /* animation: glow 4s ease-in-out infinite alternate; */
   opacity: 0.3;
-  transition: 1s;
+  transition: 0.1s;
   position: absolute;
   /* text-shadow: -0.004rem -0.01rem 0.01rem black, 0.004rem 0.1rem 0.1rem white; */
+  font-family: 'EB Garamond', serif;
+  font-size: 1.5em;
+  text-shadow: -0.004rem -0.01rem 0.01rem black, 0.004rem 0.1rem 0.1rem white;
 }
 
 .text:hover {
-  color: rgb(164, 164, 164);
-  opacity: 0.8;
+  color: rgb(177, 177, 177);
+  opacity: 0.7;
 }
 
 .text-title {
@@ -98,7 +127,7 @@ a:hover{
 }
 
 .text-5 {
-  width: 730px;
+  width: 650px;
   top: 230%;
   left: 8%;
 }
@@ -145,51 +174,45 @@ a:hover{
   left: 60%;
 }
 
-marquee{
+marquee {
   /* background-color: rgb(65, 59, 207); */
-  height:50px;
+  height: 50px;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 4s ease-in-out infinite alternate;
   /* color:rgb(27, 204, 119); */
   /* width:500%; */
-
   /* top: 550%; */
 }
 
-.mama{
+.mama {
   position: absolute;
   /* width:100%; */
-  top:270%;
-
-  /* background-color: rgb(252, 119, 199); */
-
-}
-
-.mama-1{
-  position: absolute;
-  /* width:100%; */
-  top:560%;
+  top: 270%;
   /* background-color: rgb(252, 119, 199); */
 }
 
-.mama-2{
+.mama-1 {
   position: absolute;
   /* width:100%; */
-  top:750%;
+  top: 560%;
   /* background-color: rgb(252, 119, 199); */
 }
 
-.dot-1{
+.mama-2 {
   position: absolute;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 4s ease-in-out infinite alternate;
+  /* width:100%; */
+  top: 750%;
+  /* background-color: rgb(252, 119, 199); */
+}
+
+.dot-1 {
+  position: absolute;
   -webkit-animation: rotation 2s infinite linear;
   /* width:100%; */
   top: 550%;
+  color:rgb(134, 134, 134);
   /* background-color: rgb(252, 119, 199); */
-
 }
 
 .text-13 {
@@ -233,11 +256,11 @@ marquee{
   color: rgb(113, 113, 113);
 }
 
-.text-18:hover{
+.text-18:hover {
   color: rgb(255, 255, 255);
 }
 
-@-webkit-keyframes glow {
+/* @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #eeeeee, 0 0 20px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff,
     ;
@@ -246,13 +269,13 @@ marquee{
   to {
     text-shadow: 0 0 20px #eeeeee, 0 0 30px #dfdfdf, 0 0 10px #fff3b4, 0 0 20px #fff4be;
   }
-}
-
+} */
 @-webkit-keyframes rotation {
-		from {
-				-webkit-transform: rotate(0deg);
-		}
-		to {
-				-webkit-transform: rotate(359deg);
-		}
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }
 }
