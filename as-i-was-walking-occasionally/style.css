@@ -21,8 +21,8 @@ a{
   line-height: 80%;
   letter-spacing: -3px;
   vertical-align: sub;
-
 }
+
 
 #fold-1{
   /* font-family: AnytimeNow; */
@@ -71,14 +71,27 @@ a{
 
 }
 
+#fold_p:hover{
+  cursor:pointer;
+}
+
 #fold_p-1 {
   font-style: italic;
   margin: 0;
 }
 
+#fold_p-1:hover{
+  cursor:pointer;
+}
+
+
 #fold_p-2 {
   font-style: italic;
   margin: 0;
+}
+
+#fold_p-2:hover{
+  cursor:pointer;
 }
 
 #fold_p-3 {
@@ -86,14 +99,26 @@ a{
   margin: 0;
 }
 
+#fold_p-3:hover{
+  cursor:pointer;
+}
+
 #fold_p-4 {
   font-style: italic;
   margin: 0;
 }
 
+#fold_p-4:hover{
+  cursor:pointer;
+}
+
 #fold_p-5 {
   font-style: italic;
   margin: 0;
+}
+
+#fold_p-5:hover{
+  cursor:pointer;
 }
 
 
