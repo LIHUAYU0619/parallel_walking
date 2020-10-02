@@ -31,12 +31,15 @@ img {
 }
 
 a {
-  color: rgb(184, 184, 184);
+  /* color: rgb(184, 184, 184); */
   text-decoration: none;
+  color: inherit;
+  transition: 0.1s;
 }
 
 a:hover {
   color: white;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 1) !important;
 }
 
 .top {
@@ -147,37 +150,27 @@ marquee {
 
 .m1 {
   top: 87%;
-  opacity: 0.1;
-  transition: 0.1s;
-  text-shadow: -0.004rem -0.01rem 0.01rem black, 0.004rem 0.1rem 0.1rem white;
-
-}
-
-.m1:hover {
-  color: white;
-  opacity: 1;
-  text-shadow: 0px 0px 10px rgba(255, 255, 255, 1) !important;
 }
 
 .m2 {
   top: -2%;
-  opacity: 0.1;
-  transition: 0.1s;
-  text-shadow: -0.004rem -0.01rem 0.01rem black, 0.004rem 0.1rem 0.1rem white;
-
 }
 
-.m2:hover {
-  color: white;
-  opacity: 1;
-  text-shadow: 0px 0px 10px rgba(255, 255, 255, 1) !important;
-}
 
 .dot-1 {
   position: absolute;
   -webkit-animation: rotation 2.5s infinite linear;
   font-size: 2em;
   z-index: 999;
+  opacity: 0.1;
+  transition: 0.1s;
+  text-shadow: -0.004rem -0.01rem 0.01rem black, 0.004rem 0.1rem 0.1rem white;
+}
+
+.dot-1:hover{
+  color: white;
+  opacity: 1;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 1) !important;
 }
 
 @-webkit-keyframes rotation {
@@ -207,7 +200,10 @@ marquee {
   margin-top: 30px;
   margin-bottom: 10px;
   /* background-color: rgb(198, 109, 49); */
+  color:black;
 }
+
+
 
 .dot {
   width: 1px;
