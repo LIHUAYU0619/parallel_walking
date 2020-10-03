@@ -10,12 +10,12 @@ html, body {
   margin: 0;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 
-#fold{
+#fold {
   font-size: 1.1em;
   display: inline;
   line-height: 80%;
@@ -23,8 +23,7 @@ a{
   vertical-align: sub;
 }
 
-
-#fold-1{
+#fold-1 {
   /* font-family: AnytimeNow; */
   font-size: 1.1em;
   display: inline;
@@ -33,7 +32,7 @@ a{
   vertical-align: sub;
 }
 
-#fold-2{
+#fold-2 {
   font-size: 1.1em;
   display: inline;
   line-height: 80%;
@@ -41,7 +40,7 @@ a{
   vertical-align: sub;
 }
 
-#fold-3{
+#fold-3 {
   font-size: 1.1em;
   display: inline;
   line-height: 80%;
@@ -49,7 +48,7 @@ a{
   vertical-align: sub;
 }
 
-#fold-4{
+#fold-4 {
   font-size: 1.1em;
   display: inline;
   line-height: 80%;
@@ -57,7 +56,7 @@ a{
   vertical-align: sub;
 }
 
-#fold-5{
+#fold-5 {
   font-size: 1.1em;
   display: inline;
   line-height: 80%;
@@ -68,11 +67,10 @@ a{
 #fold_p {
   font-style: italic;
   margin: 0;
-
 }
 
-#fold_p:hover{
-  cursor:pointer;
+#fold_p:hover {
+  cursor: pointer;
 }
 
 #fold_p-1 {
@@ -80,18 +78,17 @@ a{
   margin: 0;
 }
 
-#fold_p-1:hover{
-  cursor:pointer;
+#fold_p-1:hover {
+  cursor: pointer;
 }
-
 
 #fold_p-2 {
   font-style: italic;
   margin: 0;
 }
 
-#fold_p-2:hover{
-  cursor:pointer;
+#fold_p-2:hover {
+  cursor: pointer;
 }
 
 #fold_p-3 {
@@ -99,8 +96,8 @@ a{
   margin: 0;
 }
 
-#fold_p-3:hover{
-  cursor:pointer;
+#fold_p-3:hover {
+  cursor: pointer;
 }
 
 #fold_p-4 {
@@ -108,8 +105,8 @@ a{
   margin: 0;
 }
 
-#fold_p-4:hover{
-  cursor:pointer;
+#fold_p-4:hover {
+  cursor: pointer;
 }
 
 #fold_p-5 {
@@ -117,20 +114,17 @@ a{
   margin: 0;
 }
 
-#fold_p-5:hover{
-  cursor:pointer;
+#fold_p-5:hover {
+  cursor: pointer;
 }
 
-
-
-#time-1{
+#time-1 {
   font-family: AnytimeNow;
   font-size: 1.5em;
   display: inline;
   line-height: 80%;
   letter-spacing: -20px;
   vertical-align: sub;
-
 }
 
 #italic-1 {
@@ -139,17 +133,14 @@ a{
   display: none;
 }
 
-#time-2{
+#time-2 {
   font-family: AnytimeNow;
   font-size: 1.5em;
   display: inline;
   line-height: 80%;
   letter-spacing: -20px;
   vertical-align: sub;
-
 }
-
-
 
 #italic-2 {
   font-style: italic;
@@ -157,7 +148,10 @@ a{
   display: none;
 }
 
-@font-face { font-family: AnytimeNow; src: url('AnytimeNow.ttf'); }
+@font-face {
+  font-family: AnytimeNow;
+  src: url('AnytimeNow.ttf');
+}
 
 .body-box {
   position: absolute;
@@ -195,7 +189,6 @@ a{
   margin-top:20%;
   margin-bottom:6%;
 } */
-
 /* .text-3{
   margin-bottom:5%;
 }
@@ -203,11 +196,22 @@ a{
 .text-4{
   margin-top:0;
 } */
-
 marquee {
   height: 100px;
 }
+.mama-1{
 
+  -webkit-animation: marquee 70s linear infinite;
+}
+@-webkit-keyframes marquee {
+  0% {
+    -webkit-transform: translateX(10%);
+  }
+  100% {
+    -webkit-transform: translateX(-10%);
+  }
+}
+/*  */
 .dot-1 {
   position: absolute;
   -webkit-animation: rotation 2s infinite linear;
@@ -225,15 +229,13 @@ marquee {
   text-shadow: 0px 0px 10px rgba(255, 255, 255, 1) !important;
 }
 
-.bottom{
-  margin-bottom:1%;
+.bottom {
+  margin-bottom: 1%;
   font-size: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-
 
 /* cursor */
 .dot {
